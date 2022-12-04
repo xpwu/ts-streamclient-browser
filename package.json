@@ -1,0 +1,38 @@
+{
+  "name": "ts-streamclient-browser",
+  "version": "0.1.0",
+  "description": "typescript stream client",
+  "author": "xpwu",
+  "dependencies": {
+    "ts-streamclient-base": "https://github.com/xpwu/ts-streamclient-base.git"
+  },
+  "devDependencies": {
+    "@types/jest": "28.1.3",
+    "jest": "28.1.1",
+    "ts-jest": "28.0.5",
+    "typescript": "4.7.4"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "stream client",
+    "web"
+  ],
+  "license": "MIT",
+  "files": [
+    "src",
+    "index.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xpwu/ts-streamclient-browser.git"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testRegex": "test/(.+)\\.test\\.(tsx?)$"
+  }
+}
