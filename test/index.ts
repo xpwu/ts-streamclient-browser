@@ -2,7 +2,7 @@
 
 // client: Client
 import {Client, ConnError} from "ts-streamclient-base"
-import {NewClient} from "src"
+import {NewClient} from "ts-streamclient-browser"
 
 
 let client: Client|null = null
@@ -87,7 +87,7 @@ export async function send() {
       printError("resp-error: " + err.message)
     }
   } else {
-    print("resp: " + ret.toString() + "\n ---> json: see the 'console'")
+    print("resp: " + ret.toString() + "\n ---> json: " + JSON.stringify(JSON.parse(ret.toString())))
     console.log("resp---json: ")
     console.log(JSON.parse(ret.toString()))
   }
