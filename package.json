@@ -1,10 +1,10 @@
 {
   "name": "ts-streamclient-browser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "typescript stream client",
   "author": "xpwu",
   "dependencies": {
-    "ts-streamclient-base": "https://github.com/xpwu/ts-streamclient-base.git#v0.1.0"
+    "ts-streamclient-base": "https://github.com/xpwu/ts-streamclient-base.git#v0.1.1"
   },
   "devDependencies": {
     "@types/jest": "28.1.3",
