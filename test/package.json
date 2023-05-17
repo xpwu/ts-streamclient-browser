@@ -1,9 +1,9 @@
 {
   "name": "test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
-    "ts-streamclient-browser": "https://github.com/xpwu/ts-streamclient-browser.git#v0.1.0",
-    "ts-streamclient-base": "https://github.com/xpwu/ts-streamclient-base.git#v0.1.0"
+    "ts-streamclient-browser": "https://github.com/xpwu/ts-streamclient-browser.git#v0.1.1",
+    "ts-streamclient-base": "https://github.com/xpwu/ts-streamclient-base.git#v0.1.1"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.14",
